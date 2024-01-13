@@ -2,22 +2,22 @@
 
 #let name = "Nakano Miku"
 #let email = [
-  #icon("email.svg") n.miku0505\@socomo.ne.jp
+  #icon("assets/email.svg") n.miku0505\@socomo.ne.jp
 ]
 #let phone = [
-  #icon("phone.svg")
+  #icon("assets/phone.svg")
   (+81) 0906914373641
 ]
 #let home = [
-  #icon("home.svg")
+  #icon("assets/home.svg")
   #link("https://miku.example.com")[ miku.example.com ]
 ]
 #let github = [
-  #icon("github.svg")
+  #icon("assets/github.svg")
   #link("https://miku.example.com")[ miku ]
 ]
 #let linkin = [
-  #icon("linkedin.svg")
+  #icon("assets/linkedin.svg")
   #link("https://miku.example.com")[ Nakano Miku ]
 ]
 
