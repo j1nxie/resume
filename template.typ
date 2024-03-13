@@ -1,12 +1,11 @@
 // You may need to change this settings
-#let sansen = "Noto Sans JP"
-#let serifen = "Noto Serif JP"
+#let sansen = "Noto Sans"
+#let serifen = "Noto Serif"
 #let emj = "Segoe UI Emoji"
 
 #let info = author => align(center)[
-  #author.email \
-  #author.phone \
-  #author.home · #author.github · #author.linkin
+  #author.email · #author.phone \
+  #author.home · #author.github
 ]
 
 // You don't really need to change the content below

@@ -7,15 +7,22 @@
 
 #self
 
+#show heading.where(level: 1): it => [
+  #set text(font: sans, weight: "regular")
+  #smallcaps(it.body)
+]
+
+/* = #experiencetitle
+
+#experience */
+
 #group((
-  leftsection(edutitle),
-  edu,
+  leftsection[ Experience ],
+  experience,
   leftsection[ Technical \ Skills ],
   tech,
-  leftsection[ Project \ Experience ],
-  projectexperience,
-  leftsection[ Activity \ Experience ],
-  activity,
+  leftsection(edutitle),
+  edu,
   leftsection[ Hobbies \ and \ Interests ],
   hobbies,
 ))
