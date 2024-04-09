@@ -22,7 +22,7 @@
 
   // Title row.
   align(center)[
-    #block(text(font: titlefont, weight: 700, 1.75em, smallcaps(title)))
+    #block(text(font: titlefont, weight: 700, 1.75em, title))
   ]
 
   // Author information.
