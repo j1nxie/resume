@@ -25,10 +25,7 @@
 
 #let selftitle = [ Self Introduction ]
 #let self = [
-  Passionate developer with interests in web technologies, video games design and
-  operating systems. Always looking to learn and develop new skills to improve
-  myself and empower projects. Writes and maintains open source projects. Has
-  worked with Rust for about 2 years, and TypeScript/JavaScript for about a year.
+  Passionate developer with interests in web technologies, video games design and operating systems. Always looking to learn and develop new skills to improve myself and empower projects. Writes and maintains open source projects. Has worked with Rust for about 2.5 years, and TypeScript/JavaScript for about 1.5 years.
 ]
 
 #let edutitle = [ Education ]
@@ -47,81 +44,89 @@
   #datedsubsection(align(left)[
     *Programming Languages*
   ], align(right)[
-    Rust, TypeScript, Python, C/C++, C\#
+    Rust, TypeScript, Python, C\#
   ])
 
   #datedsubsection(align(left)[
     *Web Development*
   ], align(right)[
-    HTML, CSS, Angular, React, Svelte
+    React, Vue.js, Angular, HTML, CSS
   ])
 
   #datedsubsection(align(left)[
     *Databases*
   ], align(right)[
-    MongoDB, Redis, SQL
+    Postgres, MongoDB, Redis
   ])
 
   #datedsubsection(align(left)[
     *Other Tools*
   ], align(right)[
-    Docker, Git, Linux
+    Docker, Git, Linux, S3
   ])
 ]
 
 #let experiencetitle = [ Experience ]
 #let experience = [
-  #datedsubsection(align(left)[
-    *Yomuyume* \
-    Backend Developer
-  ], align(right)[
-    * https://github.com/Liminova/yomuyume * \
-    Sep 2023 - _present_
-  ])
+  // #datedsubsection(align(left)[
+  //   *Yomuyume* \
+  //   Backend Developer
+  // ], align(right)[
+  //   * https://github.com/Liminova/yomuyume * \
+  //   Sep 2023 - _present_
+  // ])
 
-  - Self-hosting manga/comics server, with support for various image and archive
-    types.
-  - Utilizes Rust and the Axum framework for a performant and featureful backend.
-  - Leverages SQLite for storing data.
+  // - Self-hosting manga/comics server, with support for various image and archive
+  //   types.
+  // - Utilizes Rust and the Axum framework for a performant and featureful backend.
+  // - Leverages SQLite for storing data.
 
   #datedsubsection(align(left)[
     *Nabit* \
     Developer
   ], align(right)[
     * https://nabit.vn * \
-    Aug 2023 - _present_
+    Aug 2023 - Oct 2024
   ])
 
   - Web-based management system for gas retailers, warehouses and wholesalers.
-  - Powered by Angular for the frontend, .NET Core for the backend, and Microsoft
-    SQL Server for the database.
-  - Powerful management features, with connections to various e-invoice systems for
-    instant invoice management.
+  - Powered by Angular for the frontend, .NET Core for the backend, and Microsoft SQL Server for the database.
+  - Powerful management features, with connections to multiple e-invoice systems for instant invoice management.
 
   #datedsubsection(align(left)[
     *Tachi* \
     Maintainer
   ], align(right)[
-    * https://github.com/TNG-dev/Tachi * \
+    * https://github.com/zkrising/Tachi * \
     Aug 2022 - _present_
   ])
 
-  - Implemented and currently maintaining maimai DX for Tachi, an open-source score
-    tracker website for 3M+ arcade scores and 3K+ users.
-  - Utilizes TypeScript and JavaScript to scrape and parse data for music database
-    and importing scores.
+  - Implemented and currently maintaining maimai DX for Tachi, an open-source score tracker website for 3M+ arcade scores and 3K+ users.
+  - Utilizes TypeScript and JavaScript to scrape and parse data for music database and importing scores.
 
   #datedsubsection(align(left)[
-    *Vietnam Community League* \
-    Backend Developer
+    *Zenith* \
+    Rust Developer
   ], align(right)[
-    * https://vcl.works * \
-    Dec 2022 - _present_
+    * https://zenithgame.net * \
+    Mar 2024 - _present_
   ])
 
-  - Part of Vietnam Community League's staff lineup, Vietnam's premiere osu! esports
-    league, running the largest and highest-quality tournaments in Vietnam.
-  - Took part in rewriting the backend from C\# to Rust.
+  - Developed the content server for Zenith, a heavily in-development rhythm game client with support for multiple game modes, alongside an uploader according to the specifications.
+  - Uses Rust and Axum to interact with an S3-compatible storage for content storage and retrieval.
+  - Implemented a client interface for interacting with said content server from within Zenith's core.
+
+  // #datedsubsection(align(left)[
+  //   *Vietnam Community League* \
+  //   Backend Developer
+  // ], align(right)[
+  //   * https://vcl.works * \
+  //   Dec 2022 - _present_
+  // ])
+
+  // - Part of Vietnam Community League's staff lineup, Vietnam's premiere osu! esports
+  //   league, running the largest and highest-quality tournaments in Vietnam.
+  // - Took part in rewriting the backend from C\# to Rust.
 ]
 
 #let activitytitle = [ Activity Experience ]
