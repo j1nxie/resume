@@ -16,12 +16,12 @@
   #icon("assets/github.svg")
   #link("https://github.com/j1nxie")[ j1nxie ]
 ]
-// #let linkin = [
-// #icon("assets/linkedin.svg")
-// #link("https://")[ Nakano Miku ]
-// ]
+#let linkedin = [
+  #icon("assets/linkedin.svg")
+  #link("https://linkedin.com/in/lumi9")[ Quoc An Nguyen Pham ]
+]
 
-#let author = (name: name, email: email, phone: phone, home: home, github: github)
+#let author = (name: name, email: email, phone: phone, home: home, github: github, linkedin: linkedin)
 
 #let selftitle = [ Self Introduction ]
 #let self = [

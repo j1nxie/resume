@@ -5,7 +5,7 @@
 
 #let info = author => align(center)[
   #author.email · #author.phone \
-  #author.home · #author.github
+  #author.home · #author.github · #author.linkedin
 ]
 
 // You don't really need to change the content below
