@@ -108,13 +108,13 @@
     *Zenith* \
     Rust Developer
   ], align(right)[
-    * https://zenithgame.net * \
+    * https://zenith.game * \
     Mar 2024 - _present_
   ])
 
   - Developed the content server for Zenith, a heavily in-development rhythm game client with support for multiple game modes, alongside an uploader according to the specifications.
   - Uses Rust and Axum to interact with an S3-compatible storage for content storage and retrieval.
-  - Implemented a client interface for interacting with said content server from within Zenith's core.
+  - Implemented a client interface for interacting with said content server within Zenith's core.
 
   // #datedsubsection(align(left)[
   //   *Vietnam Community League* \
