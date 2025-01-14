@@ -31,6 +31,14 @@
 #let edutitle = [ Education ]
 #let edu = [
   #datedsubsection(align(left)[
+    *FPT Software Academy* \
+    React Fresher Developer
+  ], align(right)[
+    Hanoi, Vietnam \
+    Nov 2024 - _present_
+  ])
+
+  #datedsubsection(align(left)[
     *University of Science and Technology of Hanoi* \
     Information and Communication Technology
   ], align(right)[
@@ -39,7 +47,10 @@
   ])
 ]
 
-#let techtitle = [ Technical Skills ]
+#let langtitle = [ Languages ]
+#let lang = grid(columns: (1fr, auto), [ *Vietnamese* \ Native ], [ *English* \ Fluent (IELTS 8.0 - 2021) ])
+
+#let techtitle = [ Skills ]
 #let tech = [
   #datedsubsection(align(left)[
     *Programming Languages*
@@ -50,13 +61,13 @@
   #datedsubsection(align(left)[
     *Web Development*
   ], align(right)[
-    React, Vue.js, Angular, HTML, CSS
+    React, Vue.js, HTML, CSS
   ])
 
   #datedsubsection(align(left)[
     *Databases*
   ], align(right)[
-    Postgres, MongoDB, Redis
+    Postgres, Redis, SQLite, MongoDB
   ])
 
   #datedsubsection(align(left)[
@@ -81,17 +92,17 @@
   // - Utilizes Rust and the Axum framework for a performant and featureful backend.
   // - Leverages SQLite for storing data.
 
-  #datedsubsection(align(left)[
-    *Nabit* \
-    Developer
-  ], align(right)[
-    * https://nabit.vn * \
-    Aug 2023 - Oct 2024
-  ])
+  // #datedsubsection(align(left)[
+  //   *Nabit* \
+  //   Developer
+  // ], align(right)[
+  //   * https://nabit.vn * \
+  //   Aug 2023 - Oct 2024
+  // ])
 
-  - Web-based management system for gas retailers, warehouses and wholesalers.
-  - Powered by Angular for the frontend, .NET Core for the backend, and Microsoft SQL Server for the database.
-  - Powerful management features, with connections to multiple e-invoice systems for instant invoice management.
+  // - Web-based management system for gas retailers, warehouses and wholesalers.
+  // - Powered by Angular for the frontend, .NET Core for the backend, and Microsoft SQL Server for the database.
+  // - Powerful management features, with connections to multiple e-invoice systems for instant invoice management.
 
   #datedsubsection(align(left)[
     *Tachi* \

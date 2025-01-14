@@ -19,7 +19,9 @@
 #group((
   leftsection[ Experience ],
   experience,
-  leftsection[ Technical \ Skills ],
+  leftsection[ Languages ],
+  lang,
+  leftsection(techtitle),
   tech,
   leftsection(edutitle),
   edu,
